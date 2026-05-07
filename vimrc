@@ -30,6 +30,7 @@ let g:netrw_liststyle = 3     " древовидный вид
 let g:netrw_browse_split = 4  " открывать файлы в предыдущем окне
 let g:netrw_altv = 0          " 0 = открывать вертикальные сплиты слева, 1 = открывать вертикальные сплиты справа
 let g:netrw_winsize = 25      " ширина файлового менеджера (25%)
+let g:netrw_localrmdir='rm -r' " рекурсивное удаление
 
 " Автоматически открывать netrw при запуске vim .
 augroup ProjectDrawer
